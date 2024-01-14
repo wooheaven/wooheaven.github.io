@@ -1,3 +1,30 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Wooheaven's note, task, post and document
+
+params:
+  homeText: Web page by hugo from scratch.
+  dateFormat: "2006-01-02 15:04:05"
+
+permalinks:
+  note: /:filename/
+
+taxonomies:
+  tag: tags
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+menus:
+  main:
+    - name: "Home"
+      pre: "home"
+      url: "/"
+      weight: 1
+    - name: "Notes"
+      pre: "edit"
+      url: "/note/"
+      weight: 2
+    - name: "Tags"
+      pre: "tag"
+      url: "/tags/"
+      weight: 3
