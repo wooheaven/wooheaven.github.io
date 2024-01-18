@@ -24,7 +24,11 @@ menus:
       pre: "edit"
       url: "/note/"
       weight: 2
+    - name: "Tasks"
+      pre: "list"
+      url: "/task/"
+      weight: 3
     - name: "Tags"
       pre: "tag"
       url: "/tags/"
-      weight: 3
+      weight: 4
