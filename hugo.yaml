@@ -28,7 +28,11 @@ menus:
       pre: "list"
       url: "/task/"
       weight: 3
+    - name: "post"
+      pre: "clipboard"
+      url: "/post/"
+      weight: 4
     - name: "Tags"
       pre: "tag"
       url: "/tags/"
-      weight: 4
+      weight: 5
