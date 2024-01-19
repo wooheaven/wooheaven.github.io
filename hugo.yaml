@@ -1,9 +1,7 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: Wooheaven's note, task, post and document
 
 params:
-  homeText: Web page by hugo from scratch.
   dateFormat: "2006-01-02 15:04:05"
 
 permalinks:
