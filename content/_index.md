@@ -6,10 +6,11 @@ Why I publish My Document. (In short, MyDoc)
 
 Discover how MyDoc is created in 4 steps.
 
-1. **Think and Write:** Transform my ideas into notes.
-2. **Things to Do:** Set priorities for my tasks.
-3. **Things Done:** Craft a post detailing the process of a task.
-4. **Publish Document:** Structure the post for a comprehensive review.
+1. **Take notes** : to keep ideas.
+2. **Define task** : to do what is written in the notes.
+3. **Manage task status** : such as to do, doing, and done.
+4. **Post** : a brief introduction after finishing the task
+5. **Publish Document** : Restructure posts for a comprehensive review and quick reference.
 
 Understand the input and output of each steps.
 
