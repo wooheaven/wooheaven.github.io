@@ -1,0 +1,7 @@
+<i data-feather="edit"></i>{{"Notes:"}}
+<br>
+<i data-feather="list"></i>{{"Tasks :"}}
+{{ $href := print (relURL "task/") (urlize .Params.task ) }}
+<a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ .Params.task }}</a>
+<br>
+<i data-feather="clipboard"></i>{{"Posts :"}}
