@@ -5,7 +5,13 @@ params:
   dateFormat: "2006-01-02 15:04:05"
 
 permalinks:
-  note: /:filename/
+  page:
+    note: /note/:year/:month/:day/:title/
+  section:
+    note: /note/
+    task: /task/
+    post: /post/
+    tags: /tags/
 
 taxonomies:
   tag: tags
@@ -20,17 +26,17 @@ menus:
       weight: 1
     - name: "Notes"
       pre: "edit"
-      url: "/note/"
+      url: "/note"
       weight: 2
     - name: "Tasks"
       pre: "list"
-      url: "/task/"
+      url: "/task"
       weight: 3
-    - name: "post"
+    - name: "Posts"
       pre: "clipboard"
-      url: "/post/"
+      url: "/post"
       weight: 4
     - name: "Tags"
       pre: "tag"
-      url: "/tags/"
+      url: "/tags"
       weight: 5
