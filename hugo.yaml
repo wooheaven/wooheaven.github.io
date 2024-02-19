@@ -6,7 +6,8 @@ params:
 
 permalinks:
   page:
-    note: /note/:year/:month/:day/:title/
+    #note: /note/:year/:month/:day/:title/
+    note: /note/:year/:month/:day/:filename/
   section:
     note: /note/
     task: /task/
