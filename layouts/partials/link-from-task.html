@@ -6,8 +6,6 @@
 {{ $href := print (relURL "note/") ($myYear) ("/") ($myMonth) ("/") ($myDay) ("/") (urlize .Params.note ) }}
 <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ .Params.note }}</a>
 <br>
-<i data-feather="list"></i>{{"Tasks :"}}
-<br>
 <i data-feather="clipboard"></i>{{"Posts :"}}
 {{ $href := print (relURL "post/") (urlize .Params.post ) }}
 <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ .Params.post }}</a>
