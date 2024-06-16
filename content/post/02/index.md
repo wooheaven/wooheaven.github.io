@@ -2,10 +2,9 @@
 title: "02 Tactile can customize window's size on ubuntu"
 date: 2024-05-28T23:36:23+09:00
 tags:
-  - note
-  - migration hugo posts
+ - post
+ - migration hugo posts
 draft: false
-note: "08_202405282336"
 task: "06_202405282336"
 ---
 
