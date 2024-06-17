@@ -4,6 +4,7 @@ date: 2024-05-28T23:36:23+09:00
 tags:
  - post
  - migration hugo posts
+ - tactile
 draft: false
 task: "06_202405282336"
 ---
