@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hugo server --disableFastRender --forceSyncStatic -D
+hugo server -p 1314 --disableFastRender --forceSyncStatic -D
