@@ -1,11 +1,11 @@
 ---
-title: "16 join lines on vim visual mode"
+title: "16 join lines on vim normal mode"
 date: 2024-09-23T22:29:36+09:00
 tags:
   - post
   - migration hugo posts
   - vim
-  - visual mode
+  - normal mode
   - join lines
 draft: false
 task: "06_202405282336"
@@ -18,7 +18,7 @@ task: "06_202405282336"
 3 c
 ```
 
-## Join lines in visual mode in Vim.
+## Join lines in normal mode in Vim.
 ```
 1 a
 2 b # type : (Shift) J
