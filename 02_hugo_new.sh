@@ -6,7 +6,7 @@ var2=''
 if [ $1 ] ; then
     var1=$1
 	echo "1st argument is assigned as : "$var1
-	tree content/$var1 | tail -10
+	tree content/$var1 | tail -20
 	echo ''
 else
     echo "1st argument is not assigned."
@@ -33,7 +33,7 @@ if [ $1 ] && [ $2 ] ; then
 	hugo new content/$var1/$var2
 
 	echo 'after tree'
-	tree content/$var1 | tail -10
+	tree content/$var1 | tail -20
 
 	# echo "#!/bin/bash" > 03_hugo_new.sh
 	# echo "" >> 03_hugo_new.sh
