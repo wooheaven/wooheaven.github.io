@@ -16,12 +16,12 @@ if [ $2 ] ; then
     if [ $1 == "post" ] ; then
         var2=$2
     	echo "2nd argument is assigned as : "$var2
-    	var2="${var2}_`dm`/index.md"
+    	var2="${var2}_`date +'%Y%m%d%H%M'`/index.md"
     	echo "2nd argument is assigned as : "$var2
     else 
         var2=$2
     	echo "2nd argument is assigned as : "$var2
-    	var2="${var2}_`dm`.md"
+    	var2="${var2}_`date +'%Y%m%d%H%M'`.md"
     	echo "2nd argument is assigned as : "$var2
     fi
 else
@@ -34,10 +34,6 @@ if [ $1 ] && [ $2 ] ; then
 
 	echo 'after tree'
 	tree content/$var1 | tail -20
-
-	# echo "#!/bin/bash" > 03_hugo_new.sh
-	# echo "" >> 03_hugo_new.sh
-	# echo 'hugo new content/'$var1'/'$var2'_''`dm`.md' >> 03_hugo_new.sh
 fi
 
 unset var1
