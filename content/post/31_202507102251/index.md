@@ -1,5 +1,5 @@
 ---
-title: "30 Install and configure vim-airline"
+title: "31 Install and configure vim-airline"
 date: 2025-07-10T22:55:01+09:00
 tags:
   - post
