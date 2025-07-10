@@ -1,5 +1,5 @@
 ---
-title: "29 Install and configure vim-plug 202503182235"
+title: "29 Install and configure vim-plug"
 date: 2025-03-18T22:35:27+09:00
 tags:
   - post
